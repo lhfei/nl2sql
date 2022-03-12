@@ -1,0 +1,6 @@
+nltk
+plac
+requests
+mysql
+Faker
+numpy
