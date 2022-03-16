@@ -59,7 +59,7 @@ class DBCorpusClassifier(object):
 
 
     def train(self, corpus_path, model_path):
-        with open(corpus_path) as corpus_file:
+        with open(corpus_path, 'rb') as corpus_file:
             corpus = pickle.load(corpus_file)
 
         train_set = []
